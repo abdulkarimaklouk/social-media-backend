@@ -1,55 +1,70 @@
-Social Media Backend
+# Social Media Backend
 
-A backend REST API for a social networking platform built with Node.js, Express.js, and MongoDB. The project demonstrates practical backend development by implementing secure authentication, user management, post interactions, and scalable API architecture.
+## Overview
 
-Project Overview
+A backend REST API for a social networking platform built with **Node.js**, **Express.js**, and **MongoDB**. The application provides secure user authentication, profile management, post interactions, and follows a clean, modular architecture based on RESTful principles.
 
-This project was built to simulate the core functionality of a modern social media platform. It focuses on backend architecture, authentication, database design, and REST API development while following a clean and organized project structure.
+## Features
 
-Features
-User registration and login
-JWT Authentication & Authorization
-User profile management
-Create, update, and delete posts
-Upload profile images
-Comment on posts
-Like and unlike posts
-Input validation
-Error handling
-RESTful API architecture
-Tech Stack
-Node.js
-Express.js
-MongoDB
-JavaScript
-JWT
-Git & GitHub
-Project Structure
+* User Registration & Login
+* JWT Authentication & Authorization
+* User Profile Management
+* Profile Image Upload
+* Post Management (CRUD)
+* Comment Management (CRUD)
+* Like & Unlike Posts
+* Input Validation
+* Error Handling
+* RESTful API Design
 
-The project follows a modular architecture by separating responsibilities into components such as:
+## Tech Stack
 
-Controllers
-Routes
-Models
-Services
-Middleware
-Configuration
+* Node.js
+* Express.js
+* MongoDB
+* JavaScript
+* JWT (JSON Web Token)
+* Git & GitHub
 
-This structure keeps the code organized, maintainable, and easier to extend as the application grows.
+## Project Structure
 
-What I Practiced
+The project follows a modular architecture by separating responsibilities into dedicated components:
 
-Through this project, I strengthened my practical experience in:
+```text
+controllers/
+middleware/
+models/
+routes/
+services/
+config/
+```
 
-Designing REST APIs
-Implementing JWT authentication and authorization
-Structuring MongoDB collections and relationships
-Handling file uploads
-Writing clean and maintainable backend code
-Organizing scalable Express.js applications
-Future Improvements
-Real-time notifications
-Private messaging
-Unit & Integration Testing
-Docker support
-API documentation with Swagger
+This structure improves code organization, maintainability, and scalability.
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/abdulkarimaklouk/social-media-backend.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file and configure the required environment variables.
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Author
+
+**Abdulkarim Aklouk**
+
+GitHub: https://github.com/abdulkarimaklouk
